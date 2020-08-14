@@ -26,7 +26,7 @@ header img {
 }
 
 body {
-  background-color:
+  background-color:hsl(0, 100%, 98%);
 }
 
 .we {
@@ -36,12 +36,14 @@ body {
 }
 
 .text {
-  padding-left: 10px; /*might get rid of padding*/
-  padding-right: 10px;
+  padding-left: 12px; /*might get rid of padding*/
+  padding-right: 12px;
   color: hsl(0, 36%, 70%);
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 25px;
 }
 
 .big-text {
@@ -57,9 +59,13 @@ h1 {
   font-weight: 600;
 }
 
-.email {
-  padding-top: 20px;
-  width: 80%;
+#email {
+  margin-left: 17px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  width: 85%;
   border-style: solid;
-  
+  border-radius: 30PX;
+  background-color: hsl(0, 100%, 98%);
 }
